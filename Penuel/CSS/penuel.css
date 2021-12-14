@@ -1,0 +1,745 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(148, 13, 148);
+    box-shadow: 4px 5px rgba(221, 186, 221, 0.473);
+    /* position: fixed; */
+}
+.header .logo{
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid white;
+    float: left;
+    background-image: url(../IMG/12b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+}
+.header .navbar{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 100px;
+    list-style-type: none;
+}
+.header .navbar ul{
+    float: left;
+}
+.header .navbar ul li{
+    display: inline;
+    margin-right: 20px;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.main .container{
+    width: 80%;
+    margin: auto;
+}
+.main .container .start{
+    width: 460px;
+    margin: auto;
+    margin-top: 10px;
+    height: 40px;
+    padding-right: 40px;
+}
+.main .container .start h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    float: left;
+    color: purple;
+}
+.main .container .start h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    float: right;
+    color: grey;
+}.main .container .start h2 a{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(202, 248, 34);
+    color: white;
+    text-decoration: none;
+}
+.main .img{
+    width: 60%;
+    min-height: 520px;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 20px;
+}
+.main .img a .img1{
+    width: 70%;
+    min-height: 500px;
+    /* border: 2px solid black; */
+    background-image: url(../IMG/30.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.main .img a .img1 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: lighter;
+    text-align: right;
+}
+.main .img a .img1 h2{
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(202, 248, 34);
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    float: right;
+    margin-top: 280px;
+}
+.main .img .img1 .logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid white;
+    float: left;
+    background-image: url(../IMG/12b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0px;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+.main .img a .img2{
+    width: 28%;
+    min-height: 240px;
+    /* border: 2px solid black; */
+    float: right;
+    background-image: url(../IMG/38.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    clear: right;
+}
+.main .img a .img2 h1{
+    width: 120px;
+    height: 24px;
+    color:burlywood;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    background-color: whitesmoke;
+    font-weight: lighter;
+    text-align: center;
+    border-radius: 20px;
+    float: right;
+    clear: right;
+}
+.main .img a .img2 h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    color: whitesmoke;
+    margin: 0px;
+    margin-top: 60px;
+    margin-left: 20px;
+    text-align: right;
+}
+.main .img a .img2 h3{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(202, 248, 34);
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    margin-top: 80px;
+}
+.main .img a .img3{
+    width: 28%;
+    min-height: 240px;
+    /* border: 2px solid black; */
+    float: right;
+    background-image: url(../IMG/45.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.main .img a .img3 h1{
+    width: 120px;
+    height: 24px;
+    color:burlywood;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    background-color: whitesmoke;
+    font-weight: lighter;
+    text-align: center;
+    border-radius: 20px;
+    float: right;
+    clear: right;
+}
+.main .img a .img3 h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    color: whitesmoke;
+    margin: 0px;
+    margin-top: 60px;
+    margin-left: 20px;
+    text-align: right;
+}
+.main .img a .img3 h3{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(202, 248, 34);
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    margin-top:70px;
+}
+.main .intro{
+    width: 60%;
+    height: 70px;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.932);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.main .intro h1{
+    margin: 0px;
+    width: 200px;
+    height: 40px;
+    /* border: 2px solid black; */
+    /* margin-top: 30px; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(236, 212, 72);
+    color: rgba(0, 0, 0, 0.932);
+    text-align: right;
+    padding-right: 10px;
+}
+.main .menu{
+    width: 90%;
+    margin: auto;
+    min-height: 600px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+.main .menu h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.781);
+    margin-bottom: 40px;
+}
+.main .menu .pizza{
+    width: 22%;
+    height: 240px;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.main .menu .pizza .pizza1{
+    height: 160px;
+    width: 100%;
+    background-image: url(../IMG/15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main .menu .pizza .pizza1 h3{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(202, 248, 34);
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    margin-top: 100px;
+}
+.main .menu .pizza .order{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+.main .menu .pizza .order h1{
+    font-size: 25px;
+    margin: 0px;
+    text-align: left;
+    margin-left: 10px;
+}
+.main .menu .pizza .order h2{
+    font-size: 15px;
+    margin: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: grey;
+    margin-top: 10px;
+}
+.main .menu .sausage{
+    width: 22%;
+    height: 240px;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.main .menu .sausage .sausage1{
+    height: 160px;
+    width: 100%;
+    background-image: url(../IMG/44.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main .menu .sausage .sausage1 h3{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(202, 248, 34);
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    margin-top: 100px;
+}
+.main .menu .sausage .order{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+.main .menu .sausage .order h1{
+    font-size: 25px;
+    margin: 0px;
+    text-align: left;
+    /* margin-left: 10px; */
+}
+.main .menu .sausage .order h2{
+    font-size: 15px;
+    margin: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 10px; */
+    color: grey;
+    margin-top: 10px;
+}
+.main .menu .hotdog{
+    width: 22%;
+    height: 240px;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.main .menu .hotdog .hotdog1{
+    height: 160px;
+    width: 100%;
+    background-image: url(../IMG/32.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main .menu .hotdog .hotdog1 h3{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(202, 248, 34);
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    margin-top: 100px;
+}
+.main .menu .hotdog .order{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+.main .menu .hotdog .order h1{
+    font-size: 25px;
+    margin: 0px;
+    text-align: left;
+    margin-left: 10px;
+}
+.main .menu .hotdog .order h2{
+    font-size: 15px;
+    margin: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: grey;
+    margin-top: 10px;
+}
+.main .menu .shawarma{
+    width: 22%;
+    height: 240px;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.main .menu .shawarma .shawarma1{
+    height: 160px;
+    width: 100%;
+    background-image: url(../IMG/18.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main .menu .shawarma .shawarma1 h3{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(202, 248, 34);
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    margin-top: 100px;
+}
+.main .menu .shawarma .order{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+.main .menu .shawarma .order h1{
+    font-size: 25px;
+    margin: 0px;
+    text-align: left;
+    margin-left: 10px;
+}
+.main .menu .shawarma .order h2{
+    font-size: 15px;
+    margin: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: grey;
+    margin-top: 10px;
+}
+.main .menu .kebab{
+    width: 22%;
+    height: 240px;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.main .menu .kebab .kebab1{
+    height: 160px;
+    width: 100%;
+    background-image: url(../IMG/46.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main .menu .kebab .kebab1 h3{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(202, 248, 34);
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    margin-top: 100px;
+}
+.main .menu .kebab .order{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+.main .menu .kebab .order h1{
+    font-size: 25px;
+    margin: 0px;
+    text-align: left;
+    margin-left: 10px;
+}
+.main .menu .kebab .order h2{
+    font-size: 15px;
+    margin: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: grey;
+    margin-top: 10px;
+}
+.main .menu .schops{
+    width: 22%;
+    height: 240px;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.main .menu .schops .schops1{
+    height: 160px;
+    width: 100%;
+    background-image: url(../IMG/22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main .menu .schops .schops1 h3{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(202, 248, 34);
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    margin-top: 100px;
+}
+.main .menu .schops .order{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+.main .menu .schops .order h1{
+    font-size: 25px;
+    margin: 0px;
+    text-align: left;
+    margin-left: 10px;
+}
+.main .menu .schops .order h2{
+    font-size: 15px;
+    margin: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: grey;
+    margin-top: 10px;
+}
+.main .menu .brownies{
+    width: 22%;
+    height: 240px;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.main .menu .brownies .brownies1{
+    height: 160px;
+    width: 100%;
+    background-image: url(../IMG/26.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main .menu .brownies .brownies1 h3{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(202, 248, 34);
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    margin-top: 100px;
+}
+.main .menu .brownies .order{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+.main .menu .brownies .order h1{
+    font-size: 25px;
+    margin: 0px;
+    text-align: left;
+    margin-left: 10px;
+}
+.main .menu .brownies .order h2{
+    font-size: 15px;
+    margin: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: grey;
+    margin-top: 10px;
+}
+.main .menu .cupcake{
+    width: 22%;
+    height: 240px;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.main .menu .cupcake .cupcake1{
+    height: 160px;
+    width: 100%;
+    background-image: url(../IMG/25.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main .menu .cupcake .cupcake1 h3{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(202, 248, 34);
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    margin-top: 100px;
+}
+.main .menu .cupcake .order{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+.main .menu .cupcake .order h1{
+    font-size: 25px;
+    margin: 0px;
+    text-align: left;
+    margin-left: 10px;
+}
+.main .menu .cupcake .order h2{
+    font-size: 15px;
+    margin: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: grey;
+    margin-top: 10px;
+}
+.main .deals{
+    width: 90%;
+    min-height: 400px;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 40px;
+}
+.main .deals h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.781);
+    margin-bottom: 40px;
+}
+.main .deals .deals1{
+    width: 30%;
+    height: 240px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.main .deals .deals1 .deals11{
+    height: 160px;
+    width: 100%;
+    background-image: url(../IMG/20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main .deals .deals2{
+    width: 30%;
+    height: 240px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.main .deals .deals2 .deals21{
+    height: 160px;
+    width: 100%;
+    background-image: url(../IMG/21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main .deals .deals3{
+    width: 30%;
+    height: 240px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.main .deals .deals3 .deals31{
+    height: 160px;
+    width: 100%;
+    background-image: url(../IMG/24.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
